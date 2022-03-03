@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    >
+
+    <ImageView
+        android:id="@+id/item_image_view"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_profile" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_name"
+        android:text="Your Name"
+        android:padding="5dp"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/item_image_view"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_contact"
+        android:text="Contact Number"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:padding="5dp"
+        android:layout_toRightOf="@id/item_image_view"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_email"
+        android:text="Email Id"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/item_image_view"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_address"
+        android:text="Address"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/item_image_view"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="45dp"
+        />
+
+    <Button
+        android:id="@+id/id_caller"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="Dialer"
+        android:textSize="10dp"
+        android:layout_marginLeft="300dp"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="Caller"
+        android:textSize="10dp"
+        android:layout_below="@id/id_caller"
+        android:layout_marginLeft="300dp"/>
+</RelativeLayout>
